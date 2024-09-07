@@ -43,7 +43,7 @@ Go back to the project directory
    cd ..
    ```
 ### Running the Application
-
+## For Unix-based Systems (Linux/macOS):
 Run:
 
 ```bash
@@ -61,6 +61,21 @@ Or,
 if you are a provider.
 
 When your client is running, you can use the `./arfleet client store <directory or file>` command to store your data.
+
+## For Windows Users:
+On Windows, instead of the ./arfleet command, you need to use node to execute the script. Here’s how to run it:
+Run:
+
+```bash
+node arfleet client
+```
+if you are a client.
+
+Or,
+```bash
+node arfleet provider
+```
+if you are a provider
 
 Note: in the current version, the data is available publicly.
 
